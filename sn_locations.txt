@@ -1,0 +1,6 @@
+# A text file of StickNet Locations (latitude and longitude) for plotting a 2D grid of observations
+
+0101A, 32.0, -101.0
+0102A, 31.0, -101.0
+0103A, 32.0, -100.0
+etc...

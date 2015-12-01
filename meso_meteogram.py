@@ -16,6 +16,11 @@ filename  = 'raw_data/' + sys.argv[1] + sys.argv[2][:4] + '.txt'
 starttime = dt.datetime(int('20'+sys.argv[2][:2]), int(sys.argv[2][2:4]), 
             int(sys.argv[2][4:]))
 
+# To exectue from the command line with python meso_meteogram.py 0106A_20151123_213427.txt
+filename = 'sn_data/'+sys.argv[1]
+starttime = dt.datetime(int(filename[-19:-15]),int(filename[-15:-13]),
+            int(filename[-13:-11]))
+
 # # Or to execute in more direct manner adjust the following:
 # filename = '/home/vanna/Desktop/originals/CHIL1206.txt'
 # starttime = dt.datetime(2012,6,15,0)
